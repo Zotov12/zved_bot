@@ -7,9 +7,9 @@ from telebot.types import KeyboardButton
 #from гороскоп import bot
 #bot=telebot.TeleBot('7543057010:AAFsNWqh1hxy50e1I8ulP5HVefvuIqkU_F8')
 dp=telebot.TeleBot('7543057010:AAFsNWqh1hxy50e1I8ulP5HVefvuIqkU_F8')
-web_app=WebAppInfo(url="https://zotov12.github.io/chatbot/")
+web_app=WebAppInfo(url="https://zotov12.github.io/zved_bot/")
 Keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True)
-key_znak = types.KeyboardButton('знаки зодиака',web_app=web_app)
+key_znak = types.KeyboardButton('Знаки зодиака',web_app=web_app)
 Keyboard.add(key_znak)
 
 
