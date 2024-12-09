@@ -10,8 +10,8 @@ if (tg.MainButton.isVisible) {
 tg.MainButton.hide();
 }
 else {
-tg.MainButton.setText("Вывести информацию по овену");
-itetg.MainButton.setText("Благоприятными для Овнов в этот день будут физические")
+#tg.MainButton.setText("Вывести информацию по овену");
+tetg.MainButton.setText("Благоприятными для Овнов в этот день будут физические")
   item = "1";
 tg.MainButton.show();
 }
