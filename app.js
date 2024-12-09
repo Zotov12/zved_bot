@@ -11,7 +11,8 @@ tg.MainButton.hide();
 }
 else {
 tg.MainButton.setText("Вывести информацию по овену");
-item = "1";
+itetg.MainButton.setText("Благоприятными для Овнов в этот день будут физические")
+  item = "1";
 tg.MainButton.show();
 }
 });
