@@ -8,15 +8,15 @@ from telebot.types import KeyboardButton
 #bot=telebot.TeleBot('7543057010:AAFsNWqh1hxy50e1I8ulP5HVefvuIqkU_F8')
 dp=telebot.TeleBot('8080304567:AAGH5MGkfMt8m2bK8Jbxz7AXD91B_RAFBY8')
 web_app=WebAppInfo(url="https://zotov12.github.io/zved_bot/")
-Keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True)
-key_znak = types.KeyboardButton('Знаки зодиака',web_app=web_app)
-Keyboard.add(key_znak)
+#Keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True)
+#key_znak = types.KeyboardButton('Знаки зодиака',web_app=web_app)
+#Keyboard.add(key_znak)
 
 
 
 
-#keyboard = ReplyKeyboardMarkup(
- #   keyboard=[[types.KeyboardButton(text="Знаки зодиака", web_app=web_app)]], resize_keyboard=True)
+keyboard = ReplyKeyboardMarkup(
+    keyboard=[[types.KeyboardButton(text="Знаки зодиака", web_app=web_app)]], resize_keyboard=True)
 
 DISC = {
     '1': 'Благоприятными для Овнов в этот день будут физические',
