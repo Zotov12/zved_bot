@@ -8,9 +8,9 @@ from telebot.types import KeyboardButton
 #bot=telebot.TeleBot('7543057010:AAFsNWqh1hxy50e1I8ulP5HVefvuIqkU_F8')
 dp=telebot.TeleBot('8080304567:AAGH5MGkfMt8m2bK8Jbxz7AXD91B_RAFBY8')
 web_app=WebAppInfo(url="https://zotov12.github.io/zved_bot/")
-#Keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True)
-#key_znak = types.KeyboardButton('Знаки зодиака',web_app=web_app)
-#Keyboard.add(key_znak)
+Keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True)
+key_znak = types.KeyboardButton('Знаки зодиака',web_app=web_app)
+Keyboard.add(key_znak)
 
 
 
@@ -34,7 +34,7 @@ DISC = {
         # взглядов. В этот День только откровенность и прямота
         # препятствуют на пути получения прибыли. Сдерживайте
         # свои желания, постарайтесь сильно не красоваться.'
-     '2':   "В этот день новые действия и мысли по отношению к"
+     '2':   'В этот день новые действия и мысли по отношению к',
      # материальному благополучию будут у Тельцов
       # результативными. День хорош для активного занятия
        #спортом, а также коллективных мероприятий, где
